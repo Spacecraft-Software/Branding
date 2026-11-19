@@ -18,6 +18,13 @@ every project draws them from the same source instead of carrying its own copy.
 The marks are single-colour (`#000027`) so a consumer can recolour them to a
 theme role, as the Plasma splash does.
 
+**Which emblem is current.** The current emblem has **no inner ring**: the
+inside of the gear is open around the screw. The previous emblem, retired on
+2026-11-19, had a thin ring of two arcs there; it is otherwise identical. Any
+Steelbore emblem with that ring is out of date, and so is any copy kept outside
+this repository. `AGENTS.md` lists the checksums and file signatures that tell
+the two apart.
+
 ## Using the marks
 
 - **Nix.** Add the repository as a non-flake input and read the files from it:
