@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2026 Mohamed Hammad <Mohamed.Hammad@SpacecraftSoftware.org>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+version = 1
+
+# Files that cannot carry an SPDX comment of their own. The SVG marks are
+# kept byte-identical to their exports, so they are annotated here instead.
+[[annotations]]
+path = [".gitattributes", ".editorconfig", "logo/**/*.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Mohamed Hammad <Mohamed.Hammad@SpacecraftSoftware.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

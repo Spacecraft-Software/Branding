@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2026 Mohamed Hammad <Mohamed.Hammad@SpacecraftSoftware.org>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+# Allowlist. This folder also holds working files (font zips, PSD and XCF
+# sources, JPEG exports, scratch copies) that are not published. Ignore
+# everything, then name each published file below. A new mark is published
+# by adding its path here (see AGENTS.md).
+*
+!*/
+
+!/.gitignore
+!/.gitattributes
+!/.editorconfig
+!/AGENTS.md
+!/CLAUDE.md
+!/CONTRIBUTING.md
+!/LICENSE
+!/LICENSES/CC-BY-SA-4.0.txt
+!/NOTICE.md
+!/README.md
+!/REUSE.toml
+
+!/logo/steelbore/sb_logo.svg
+!/logo/steelbore/steelbore_logo.svg
